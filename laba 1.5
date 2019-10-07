@@ -1,0 +1,20 @@
+#include <iostream>
+#include <string>
+using namespace std;
+int main()
+{ 
+    double a,b; 
+       
+    cout << "Enter numbers a and b : " << endl;
+    cin >>a>>b;
+    
+    if (a<0) a=a*-1;
+    if (b<0) b=b*-1;
+    
+    cout << "Sum of modules :" << a+b << endl;
+    cout << "Module difference :" << a-b << endl;
+    cout << "Product of modules :" << a*b << endl;
+    cout << "Private modules :" << a/b << endl;
+
+     return 0; 
+}
